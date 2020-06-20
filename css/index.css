@@ -1,0 +1,23 @@
+.opts {
+    width:80px;
+    padding-left: 0;
+}
+
+.opts li {
+    list-style-type: none;
+    display:block;
+    height:20px;
+    border-bottom: 1px solid black;
+}
+
+.opts :hover {
+    cursor: pointer;
+}
+
+.opts li:hover {
+    background-color: rgba(0,255,255, 0.2);
+}
+
+.section-content-expand {
+    max-width:none;
+}
